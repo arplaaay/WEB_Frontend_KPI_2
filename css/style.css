@@ -1,0 +1,64 @@
+body {
+  background-color: purple;
+}
+
+.container {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.dowload-btn {
+  display: block;
+
+  width: 150px;
+  height: 50px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+
+  border-radius: 10px;
+  border-style: none;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  transition: 500ms;
+}
+
+.dowload-btn:hover {
+  background-color: aqua;
+  -webkit-box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488, -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff, 12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+    -10px -7px 27px 1px #8e5cff, 5px 5px 15px 5px rgba(248, 76, 255, 0);
+  box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488, -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff, 12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+    -10px -7px 27px 1px #8e5cff, 5px 5px 15px 5px rgba(248, 76, 255, 0);
+
+  cursor: pointer;
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: #fff;
+
+  margin-bottom: 10px;
+}
+
+.card-container:not(:last-child) {
+  margin-right: 10px;
+}
+
+.card-body {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
